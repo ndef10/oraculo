@@ -4,7 +4,7 @@ CREATE DATABASE oraculo;
 CREATE TABLE usuario (
     id SERIAL PRIMARY KEY,
     nombre VARCHAR (50) NOT NULL,
-    foto VARCHAR (255) NOT NULL,
+    foto VARCHAR (255),
     email VARCHAR (255) NOT NULL,
     password VARCHAR (255) NOT NULL
 );
@@ -52,3 +52,4 @@ oraculo=# SELECT * FROM carta;
 ----+--------+------+-------------
 (0 filas)
 
+oraculo
